@@ -1,11 +1,24 @@
 format: jb-book
 root: index.md
 parts:
-- caption: 工作机制
+- caption: 联盟管理制度
   chapters:
-  - file: mechanisms/seminars/README.md
-- caption: 联盟治理
-  chapters:
-    - file: governance/organization/README.md
+    - file: institutions/organization/README.md
       sections:
-        - file: governance/organization/roadmap/README.md
+        - file: institutions/organization/alliance.md
+    - file: institutions/transaction/README.md
+    - file: institutions/talent/README.md
+      sections:
+        - file: institutions/talent/training.md
+- caption: 联盟工作机制
+  chapters:
+  - file: mechanisms/open_source/README.md
+  - file: mechanisms/academics/README.md
+  - file: mechanisms/education/README.md
+    sections:
+      - file: mechanisms/education/competition/README.md
+  - file: mechanisms/enterprise/README.md
+  - file: mechanisms/social_work/README.md
+  - file: mechanisms/community/README.md
+    sections:
+      - file: mechanisms/community/seminar/README.md
