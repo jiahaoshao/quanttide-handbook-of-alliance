@@ -12,6 +12,7 @@ parts:
         - file: institutions/transaction/funding/README.md
           sections:
             - file: institutions/transaction/funding/donation.md
+            - file: institutions/transaction/funding/investing.md
     - file: institutions/talent/README.md
       sections:
         - file: institutions/talent/training.md
