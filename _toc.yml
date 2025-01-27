@@ -8,7 +8,9 @@ parts:
         - file: institutions/organization/alliance.md
     - file: institutions/transaction/README.md
       sections:
-        - file: institutions/transaction/issuance.md
+        - file: institutions/transaction/issuing/README.md
+          sections:
+              - file: institutions/transaction/issuing/pricing.md
         - file: institutions/transaction/funding/README.md
           sections:
             - file: institutions/transaction/funding/donation.md
